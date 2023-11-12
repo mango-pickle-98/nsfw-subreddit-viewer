@@ -3,7 +3,7 @@ import requests
 import json
 import streamlit as st
 
-data = pd.read_csv("/home/phani/Desktop/New Folder/nsfw_sr.csv")['sr'].unique()
+data = pd.read_csv("nsfw_sr.csv")['sr'].unique()
 
 # Create two columns
 col1, col2 = st.columns(2)
